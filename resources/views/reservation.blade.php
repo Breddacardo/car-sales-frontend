@@ -75,10 +75,8 @@
 					@csrf
 				</form>
 			</div>
-
 			<div class="flex items-center space-x-4">
-				<img class="w-8 rounded-full" src="https://imagez.tmz.com/image/f7/1by1/2021/12/14/f7703994b69d48ca802df55729a2325c_xl.jpg" alt="Elon Musk" />
-				<p class="hidden md:block">Alucard</p>
+				<p class="hidden md:block">{{ Auth::user()->name }}</p>
 			</div>
 		</nav>
 		<div class="mx-6">

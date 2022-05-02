@@ -32,12 +32,9 @@
               </a> --}}
 
               <a href="{{ route('reservation') }}" class="block w-full px-12 py-3 text-sm font-medium text-white bg-blue-600 border border-blue-600 rounded sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">
-                Make a reservatoin
-                </a>
-              
-              <a href="#"class="block w-full px-12 py-3 text-sm font-medium text-white border border-blue-600 rounded sm:w-auto hover:bg-blue-600 active:bg-blue-500 focus:outline-none focus:ring">
                 Offers
                 </a>
+              
             </div>
           </div>
         </div>
